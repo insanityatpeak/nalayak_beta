@@ -12,13 +12,34 @@ Unlike other terminal audio tools, Nalayak uses native APIs (`mciSendString` on 
 ---
 
 ## ✨ Features
-- **Context-Aware Sound Triggers:**
-  - 💥 **Dangerous Fails**: Fails a high-risk command like `rm` or `sudo`? You get a specific warning sound.
-  - 🤡 **Gibberish**: Typing total garbage triggers a specific sound.
-  - 🤕 **Typos**: Fuzzy matches your command to suggest fixes (e.g., `Did you mean: git?`).
-  - 🎉 **Success Mode**: Type a correct command? There's a chance to trigger a random success meme!
 - **Zero Dependencies:** Written in pure standard-library Python. No `pip install` required.
+- **Lightweight Typo Engine:** Fuzzy matches your failed commands to suggest fixes without needing a massive database.
 - **Cross-Platform:** Works seamlessly on **Windows PowerShell**, **macOS (zsh/bash)**, and **Linux (bash/fish)**.
+
+---
+
+## 🎭 Personalities & Roasts
+Nalayak doesn't just throw standard error messages; it verbally assaults you using distinct Indian developer personas. You can fully customize these in `config/personalities.json`.
+
+**Example Personas:**
+- 👨🏽‍🦳 **Indian Dad**: *"Padhai likhai chhod de, singhade bech."*
+- 🏢 **Toxic Senior**: *"PR review ke liye mat aana mere paas. Ye basic cheez nahi aati?"*
+- ☁️ **DevOps Bhaiya**: *"Cloud bill tere akele ke failures se badh raha hai."*
+- 🍕 **Hostel Friend**: *"Bhai raat ko kya phoonk ke coding kar raha tha?"*
+
+---
+
+## 🔊 Context-Aware SFX
+The audio engine isn't just random—it actively analyzes *how* you failed and plays the appropriate Sound Effect (SFX). You can add your own `.wav` or `.mp3` files to the `sounds/` folder and map them in `config/sounds.json`.
+
+**How the Audio Logic Works:**
+- 🤕 **Typo Detect (`typo_confused.wav`)**: Triggers when you make a slight spelling mistake on a known command (e.g., typing `gti status`).
+- 🤡 **Bad Arguments (`bruh.wav`, `vine_boom.wav`)**: Triggers when you type a real command correctly, but it fails due to bad arguments (e.g., `git push` in an empty folder).
+- 💥 **Total Gibberish (`fahhh.wav`, `fail_scream.wav`)**: Triggers when your command isn't even close to a real word (e.g., `asdfghjkl`).
+- ⚠️ **Dangerous Fails (`modi.wav`)**: Triggers specifically when you fail a high-risk destructive command like `rm`, `sudo`, or `del`.
+- 🎉 **Positive Reinforcement (`nokia.wav`)**: 40% chance to trigger seamlessly in the background when you type a *successful* command!
+
+---
 
 ## 🚀 Installation
 
@@ -42,16 +63,7 @@ Unlike other terminal audio tools, Nalayak uses native APIs (`mciSendString` on 
    ```
 3. Restart your terminal!
 
-## ⚙️ Customization
-
-You can fully customize the roasts, personalities, and meme sounds! The configurations are stored in the `config/` directory.
-
-### Adding Custom Sounds
-1. Drop any audio file (MP3, WAV) into the `sounds/` directory.
-2. Open `config/sounds.json` and add the filename to the category you want it to trigger on!
-
-### Custom Personalities
-Want your terminal to yell at you like your manager? Open `config/personalities.json` and add your own custom quotes and personas.
+---
 
 ## 🗑️ Uninstalling
 
