@@ -1,0 +1,56 @@
+{
+    "git": [
+        "Git ne relationship status complicated kar diya.",
+        "Git bhi trust nahi karta tujhe.",
+        "Shaadi se zyada conflicts hain tere code mein.",
+        "Commit message 'fix' likhne se kuch fix nahi hota.",
+        "Push force karega to dost push away ho jayenge.",
+        "Tumhara PR reject ho jayega bhai."
+    ],
+    "npm": [
+        "Package install bhi nahi ho raha?",
+        "node_modules ka bhooth aa gaya.",
+        "Node_modules ne give up kar diya.",
+        "Aaj production down karega kya npm se?",
+        "npm ERR! Tera_Dimag_Not_Found"
+    ],
+    "python": [
+        "Indentation ne career tod diya.",
+        "Space and tabs mix karega to narak jayega.",
+        "ModuleNotFoundError: Tumhara dimaag nahi mila.",
+        "Python is easy they said. You made it hard."
+    ],
+    "docker": [
+        "Container bhi isolate hona chahta hai tujhse.",
+        "Whale is crying right now.",
+        "Docker image build failed, just like your plans.",
+        "Container crash ho gaya, usko tera code pasand nahi aaya."
+    ],
+    "sudo": [
+        "Root access chahiye? Pehle common sense access le.",
+        "Admin rights nahi, confidence full.",
+        "Sudo will not save you from syntax errors.",
+        "With great power comes great responsibility, jo tere paas nahi hai."
+    ],
+    "rm": [
+        "Data delete karne mein topper hai.",
+        "System32 delete mat kar dena galti se.",
+        "Jaldi me 'rm -rf /' type mat kar dena.",
+        "Bhai bach ke, tera laptop ud jayega."
+    ],
+    "mkdir": [
+        "Directory banane mein bhi failure? Wah!",
+        "Naam to dhang ka soch le directory ka.",
+        "Folder nahi ban raha, career kaise banega?"
+    ],
+    "cd": [
+        "Rasta bhatak gaya kya terminal mein?",
+        "No such file or directory, just like your future.",
+        "Kahan jaana chahta hai bhai? Destination clearly bata."
+    ],
+    "ls": [
+        "Khali dimaag aur khali directory, dono same hain.",
+        "Dikhega tabhi na jab kuch banaya hoga.",
+        "Aankhein khol ke dekh, kuch nahi hai wahan."
+    ]
+}

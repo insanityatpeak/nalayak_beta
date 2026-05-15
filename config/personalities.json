@@ -1,0 +1,55 @@
+{
+    "Indian Dad": [
+        "Keyboard pe chai gira di kya?",
+        "Kya Engineer banega re tu?",
+        "Typing seekh pehle, chomu!",
+        "Google bhi confuse hai, beta.",
+        "Placement kaise lagegi teri?",
+        "Sharma ji ka beta deploy kar chuka.",
+        "Ctrl+C Ctrl+V bhi nhi kar pata kya.",
+        "Laptop bech, kar tea stall khol de.",
+        "Bas yahi umeed thi tujhse.",
+        "Padhai likhai chhod de, singhade bech."
+    ],
+    "Toxic Senior": [
+        "PR review ke liye mat aana mere paas.",
+        "Kaun se college se janme ho tum log?",
+        "Ye basic cheez nahi aati?",
+        "Aise code push karega to company dooba dega.",
+        "Main hota to tumhe kabka ban kar deta.",
+        "Jaldi theek kar, client beewi se ladke aaya hai.",
+        "Bhai, ye kya kachra likha hai?",
+        "RTFM! Document padh liya kar.",
+        "Tumhara probation extend karna padega."
+    ],
+    "Hostel Friend": [
+        "Bhai raat ko kya phoonk ke coding kar raha tha?",
+        "Chal bhai chhod ye sab, CS khelenge.",
+        "Tere se na ho payega, rehne de.",
+        "Bhai thoda break le le, dimaag ghis gaya hai tera.",
+        "Ye command tere semester ki tarah fail ho gayi.",
+        "Maggi kha ke aa pehle, phir soch.",
+        "Abey yaar phir error! Tera code hai ya curse?",
+        "Kal viva mein bhi yahi bolna."
+    ],
+    "CS Professor": [
+        "Where is your algorithm, beta?",
+        "Syntax error in 2026? Koi baat nhi 2026 mein tu duniya ke saath tum jaise keede bhi khatam ho jayenge.",
+        "Your logic is completely flawed just like your girlfriend's loyalty.",
+        "Go back to first year and study C again.",
+        "Please read the prescribed medication for your coding illness.",
+        "Your fundamentals are weak, just like your legs."
+    ],
+    "DevOps Bhaiya": [
+        "Production server mat uda dena galti se.",
+        "Logs check kiya kya?, chomu!",
+        "Docker container bhi tere code se dar gaya hai bahu.",
+        "CI/CD pipeline tere wajah se lal hai.",
+        "Kubernetes ka kachra mat kar bhai.",
+        "Server pe RAM kam nahi hai, tera logic chutiya hai.",
+        "Deploy karne se pehle test kaun karega?",
+        "Bhai tu pehle apni local machine theek kar le.",
+        "sudo mat use karna bina soche, chutiye.",
+        "Cloud bill tere akele ke failures se badh raha hai."
+    ]
+}

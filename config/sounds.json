@@ -1,0 +1,19 @@
+{
+  "typo": [
+    "typo_confused.wav"
+  ],
+  "command_not_found": [
+    "fahhh.wav",
+    "fail_scream.wav"
+  ],
+  "dangerous": [
+    "modi.wav"
+  ],
+  "success": [
+    "nokia.wav"
+  ],
+  "funny": [
+    "bruh.wav",
+    "vine_boom.wav"
+  ]
+}
