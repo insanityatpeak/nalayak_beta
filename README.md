@@ -1,5 +1,10 @@
 # ☠️ Nalayak (Beta)
 
+
+https://github.com/user-attachments/assets/8b770c51-7bf2-4e4a-ab3c-f8857a275635
+
+
+
 **Nalayak** (Hindi for *worthless/incompetent*) is an ultra-lightweight, cross-platform terminal roaster that intercepts your failed commands, roasts you with customizable personalities, and natively plays meme sounds in the background.
 
 Unlike other terminal audio tools, Nalayak uses native APIs (`mciSendString` on Windows, `afplay` on macOS) to seamlessly play audio *without* freezing your terminal or requiring heavy dependencies.
